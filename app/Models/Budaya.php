@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Budaya extends Model
 {
         use HasFactory;
-        protected $fillable = ['name', 'description', 'origin'];
+        protected $fillable = ['name', 'description', 'origin', 'image'];
 
 }
