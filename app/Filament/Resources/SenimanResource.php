@@ -17,7 +17,7 @@ class SenimanResource extends Resource
     
     protected static ?string $model = Seniman::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-pencil';
+    protected static ?string $navigationIcon = 'heroicon-o-user';
     
     public static function form(Form $form): Form
     {

@@ -16,7 +16,7 @@ class BudayaResource extends Resource
 {
     protected static ?string $model = Budaya::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-pencil';
+    protected static ?string $navigationIcon = 'heroicon-o-building-library';
 
     protected static ?string $navigationLabel = 'Budaya';
 
