@@ -16,6 +16,8 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class SenimanResource extends Resource
 {
+    protected static ?string $navigationLabel = 'Seniman';
+    
     protected static ?string $model = Seniman::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-pencil';
