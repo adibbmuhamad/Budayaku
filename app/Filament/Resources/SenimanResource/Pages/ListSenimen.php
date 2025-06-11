@@ -6,7 +6,7 @@ use App\Filament\Resources\SenimanResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 
-class ListSenimen extends ListRecords
+class ListSenimans extends ListRecords
 {
     protected static string $resource = SenimanResource::class;
 

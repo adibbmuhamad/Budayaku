@@ -16,5 +16,6 @@ class Seniman extends Model
         'biography',
         'birthplace',
         'birth_date',
+        'image'
     ];
 }
