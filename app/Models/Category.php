@@ -9,4 +9,10 @@ class Category extends Model
 {
         use HasFactory;
         protected $fillable = ['name', 'description'];
+
+        // Relasi Category dengan Budaya
+        public function budayas()
+        {
+                return $this->hasMany(Budaya::class);
+        }
 }
